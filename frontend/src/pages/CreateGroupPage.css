@@ -1,0 +1,80 @@
+.create-group-page {
+  padding: 20px 0;
+}
+
+.create-group-page h1 {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.create-group-page .form-container {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.selected-user {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.user-list {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: var(--border-radius);
+}
+
+.user-checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: var(--transition);
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.user-checkbox:last-child {
+  border-bottom: none;
+}
+
+.user-checkbox:hover {
+  background-color: #f9f9f9;
+}
+
+.user-checkbox.checked {
+  background-color: var(--light-color);
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.empty-message {
+  padding: 20px;
+  text-align: center;
+  color: var(--gray-color);
+} 
