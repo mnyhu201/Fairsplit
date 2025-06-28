@@ -1,0 +1,30 @@
+{
+    "projectName": "node-backend",
+    "refactor": {
+      "preserveEndpoints": true,
+      "targetLanguage": "TypeScript",
+      "framework": "Express",
+      "database": "Supabase",
+      "authentication": "SupabaseAuth"
+    },
+    "inputs": [
+      "Backend Documentation.docx"
+    ],
+    "migrations": [
+      {
+        "from": "src/main/java",
+        "to": "node-backend/src/"
+      },
+      {
+        "from": "src/main/resources/application.properties",
+        "to": "node-backend/.env"
+      }
+    ],
+    "patterns": {
+      "convertDTOsToInterfaces": true,
+      "useSupabaseClient": true,
+      "wrapRoutesInAuthMiddleware": true,
+      "organizeByFeature": true
+    }
+  }
+  

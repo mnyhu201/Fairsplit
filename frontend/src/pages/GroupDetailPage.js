@@ -328,6 +328,7 @@ function GroupDetailPage({ user }) {
         </div>
       )}
       
+      {!expenseFormVisible && (
       <div className="group-content">
         <div className="group-sidebar">
           <div className="members-card">
@@ -382,7 +383,6 @@ function GroupDetailPage({ user }) {
             </ul>
           </div>
         </div>
-        
         <div className="group-main">
           <div className="expenses-card">
             <h2>Expenses</h2>
@@ -413,6 +413,7 @@ function GroupDetailPage({ user }) {
           </div>
         </div>
       </div>
+      )}
     </div>
   );
 }
