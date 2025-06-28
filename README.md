@@ -2,7 +2,7 @@
 
 A comprehensive expense tracking and group payment splitting application that helps friends, roommates, and groups manage shared expenses efficiently.
 
-![Fairsplit Dashboard](resources/Screenshot%202025-06-27%20at%207.21.14%20PM.png)
+![Fairsplit Dashboard](resources/dashboard_debtee.png)
 
 ## 🚀 Features
 
@@ -31,41 +31,44 @@ Fairsplit is built with a modern, scalable architecture:
 - **Axios** for API communication
 - **CSS3** with custom styling for a modern UI
 
-### Backend Options
-The project includes two backend implementations:
-
-#### Spring Boot Backend
+### Backend
 - **Java 21** with Spring Boot 3.4.4
 - **Spring Data JPA** for database operations
 - **PostgreSQL** database
 - **Lombok** for reducing boilerplate code
 - **Maven** for dependency management
 
-
 ## 📱 Screenshots
 
-### Dashboard Overview
-![Dashboard](resources/Screenshot%202025-06-27%20at%207.21.14%20PM.png)
+### Login Interface
+![Login](resources/login.png)
+
+### Dashboard - Debtee View
+![Dashboard Debtee](resources/dashboard_debtee.png)
+
+### Dashboard - Debtor View
+![Dashboard Debtor](resources/dashboard_debtor.png)
 
 ### Group Management
-![Group Management](resources/Screenshot%202025-06-27%20at%207.21.07%20PM.png)
+![Group Management](resources/group.png)
 
-### Expense Creation
-![Expense Creation](resources/Screenshot%202025-06-27%20at%207.20.57%20PM.png)
+### Expense Overview
+![Expenses](resources/expenses.png)
 
-### Payment Tracking
-![Payment Tracking](resources/Screenshot%202025-06-27%20at%207.20.39%20PM.png)
+### Create New Expense
+![Create Expense](resources/create_expense.png)
+
+### Payment Management
+![Payments](resources/payments.png)
 
 ### Request Management
-![Request Management](resources/Screenshot%202025-06-27%20at%207.20.27%20PM.png)
-
-### User Interface
-![User Interface](resources/Screenshot%202025-06-27%20at%207.19.51%20PM.png)
+![Requests](resources/requests.png)
 
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
 - Java 21+ (for Spring Boot backend)
+- Node.js 18+ (for frontend)
 - PostgreSQL database
 
 ### Frontend Setup
@@ -184,7 +187,6 @@ npm run build
 ```
 
 ### Backend Deployment
-
 ```bash
 cd Backend
 ./mvnw clean package
@@ -223,4 +225,4 @@ If you encounter any issues or have questions:
 
 ---
 
-**Fairsplit** - Making expense splitting fair and simple! 
+**Fairsplit** - Making expense splitting fair and simple! 💰✨ 
